@@ -1,0 +1,15 @@
+CACHE MANIFEST
+
+bootstrap/css/bootstrap.min.css
+bootstrap/css/bootstrap-responsive.min.css
+bootstrap/js/bootstrap.min.js
+js/ajaxload_more.js
+js/libs/modernizr-2.6.2.min.js
+http://images.315ok.org/jquery-1.7.1.min.js
+http://images.315ok.org/xtgl/bootstrap/js/bootstrap.min.js
+http://images.315ok.org/ajaxfetchimg.nojq.js
+
+FALLBACK:
+404.html
+NETWORK:
+*

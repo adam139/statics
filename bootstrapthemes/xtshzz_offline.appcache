@@ -1,0 +1,25 @@
+CACHE MANIFEST
+# version 1.0
+CACHE:
+css/kuputabs.css
+js/kuputabs.js
+bootstrap/css/bootstrap.min.css
+bootstrap/css/bootstrap-responsive.min.css
+bootstrap/js/bootstrap.min.js
+js/ajaxload_more.js
+js/libs/modernizr-2.6.2.min.js
+http://images.315ok.org/jquery-1.7.2.min.js
+http://images.315ok.org/ajaxfetchimg.nojq.js
+http://images.315ok.org/xtshzz/bootstrap/css/bootstrap.noresponse2.min.css
+http://images.315ok.org/xtshzz/bootstrap/css/custom.min6.css
+http://images.315ok.org/bootstrapthemes/js/plone-login.js
+http://images.315ok.org/bootstrapthemes/js/table_sorter.js
+http://images.315ok.org/bootstrapthemes/js/mk_div_sameheight.js
+http://images.315ok.org/bootstrapthemes/js/ajaxload_more.js
+http://images.315ok.org/xtshzz/bootstrap/js/bootstrap.min.js
+http://images.315ok.org/xtshzz/images/logo.jpg
+http://images.315ok.org/xtshzz/images/header.jpg
+FALLBACK:
+/ http://images.315ok.org/bootstrapthemes/dialog.html
+NETWORK:
+*

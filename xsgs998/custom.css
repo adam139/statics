@@ -1,0 +1,33 @@
+.navbar-brand img {margin-top:-12px;}
+#homepage {margin-top:50px;}
+
+.portlet h4 {text-align:center}
+.portletItemDetails {
+    color: #000;
+    float: right;
+    margin-right: 6px;
+}
+.navTreeItem,.rolltext li,.portletItem {
+	  border-bottom:1px dashed #b4b4b4;
+    line-height: 1.6em;
+    list-style: none outside url("http://images.315ok.org/xtshzz/images/red_point.jpg");
+}
+
+
+.qrcode {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left:100px;
+}
+#follow-qrcode {left:157px}
+.sn-qrcode-content{
+ background: url("http://images.315ok.org/xsgs998/qrcode.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 400px;
+    margin: 16px auto;
+    width: 400px;
+   }
+.phone {
+	background: url("http://images.315ok.org/xsgs998/www_qrcode.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+}   

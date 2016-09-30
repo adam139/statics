@@ -1,0 +1,352 @@
+#region-content{*border:none}
+table.MsoNormalTable, 
+table.MsoNormalTable tr, 
+table.MsoNormalTable td{border:1px solid #000; border-collapse:collapse}
+* ul, ol{list-style:none}
+* h1, h2, h3, h4, h5, h6, pre, code{font-size:1em}
+* a img, :link img, :visited img{border:none}
+body{font:12px Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;background-color:#FFF; color:#000; margin:0; padding:0}
+img{border:none; vertical-align:middle}
+
+p{line-height:1.5em; margin:0 0 0.75em}
+
+p img{border:none; margin:0}
+
+hr{border:0; height:1px; color:#8cacbb; background-color:#8cacbb; margin:0.5em 0 1em}
+
+h1, h2, h3, h4, h5, h6{color:#000;margin:0.75em 0 0.25em}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color:#000 !important; text-decoration:none}
+#portal-siteactions {display:block;padding-top:10px;}
+
+h1{font-size:160%}
+
+h2{font-size:150%}
+
+h3{font-size:125%; border-bottom:none; font-weight:700}
+
+h4{font-size:110%; border-bottom:none; font-weight:700}
+
+h5{font-size:100%; border-bottom:none; font-weight:700}
+
+h6{font-size:90%; border-bottom:none; font-weight:700}
+
+dd{line-height:1.5em; margin-bottom:1em; _margin-left:15px}
+
+abbr, acronym, .explain{border-bottom:1px dotted #000; color:#000; background-color:transparent; cursor:help}
+
+q{font-family:Baskerville,Georgia,serif; font-style:italic; font-size:120%}
+
+#mainflash{margin-top:-16px; background-color:#BFCAE6}
+
+*html #mainflash, *+html #mainflash{margin:-12px}
+
+.portletNavigationTree{background-color:#BFCAE6}
+
+.navTree li{border-bottom:1px solid #DEE; border-color:#DEE; margin-bottom:0 !important; width:167px; margin-left:-4px; _margin-left:-40px; line-height:1.5em}
+
+.navTreeItem a{padding:0.5em 0 !important}
+
+dd.portletItem{
+    border-bottom: 1px dashed;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0 0 1em;
+	}
+
+dd.portletItem .navTreeItem a{color:#fff}
+
+.section-pub dd.portletItem .navTreeItem a{color:#000}
+
+dd.portletItem .navTreeCurrentItem a{color:red !important}
+
+dd.portletItem_link{text-align:center; margin:0; padding:0}
+
+dt.portletHeader a,dt.portletHeader a span{margin-left:10px;padding-top:6px;}
+
+
+#collage h1{display:none}
+#collage .column-block{display:inline}
+#collage .row_1 .collage-item{margin-top:-5px}
+#collage .row_2 .collage-item{margin-top:-32px;_margin-top:-16px}
+#collage dl.portlet{height:250px; overflow:auto !important}
+#collage dl {background-color:#FFF;margin-bottom:30px; width: 300px;border:#86b2d1 1px solid;}
+.portletPixviewer dd{margin-left:3px; margin-right:3px; text-align: center;}
+#collage dl.portlet dt.portletHeader {background:transparent url('http://images.315ok.org/xsgs998/qie01.jpg') top left no-repeat;height:30px;margin-bottom:10px;}
+
+.state-visible{color:#74AE0B !important}
+
+.state-published{color:#436976 !important}
+
+.state-pending{color:orange !important}
+
+.syndicated{color:green !important}
+
+#portal-columns{width:966px !important; border-collapse:collapse; margin-top:-2px; margin-right:20px; margin-left:20px; border-spacing:0; background-color:#ec870e; min-height:247px; height:247px}
+
+#portal-column-one{vertical-align:top; width:207px !important; border-collapse:collapse; background-color:#BFCAE6}
+
+#portal-column-content{vertical-align:top; background-color:#FFF; border-collapse:collapse; margin:0; padding:0 7px}
+
+#portal-column-two{vertical-align:top; width:227px; border-collapse:collapse; background-color:#fff}
+
+body.fullscreen #portal-column-content{width:100%; margin:0; padding:0}
+
+div.managePortletsLink, .portletFooter{display:none}
+
+body.smallText{font-size:60%}
+
+#portal-column-one .visualPadding{padding-right:2px; padding-left:2px; border:none}
+
+#portal-column-two .visualPadding{padding-right:1px; padding-left:1px; border:none}
+
+#portal-column-one .portlet{margin-top:2px}
+
+h1, h2{border-bottom:1px solid #8cacbb; font-weight:400}
+
+body.kssActive h2.inlineEditable:hover, body.kssActive h1.inlineEditable:hover{padding-bottom:1px}
+
+h3, h4, h5, h6{border-bottom:none; display:none; font-weight:700}
+
+.documentFirstHeading{margin-top:0}
+
+.documentContent p{font-size:110%; text-indent:2em; padding:15px; background-color:#FFF}
+
+.documentContent ul{list-style-image:url('http://images.315ok.org/bullet.gif'); list-style-type:square; margin:0.5em 0 0 -0.5em; _margin-left:5px}
+.documentContent ol{margin:0.5em 0 0 2.5em}
+#content a:target{background-color:#fd7 !important}
+.documentContent li a:visited{color:Purple}
+.documentContent li a:active{color:Red}
+
+#collage .portletItemDetails{	
+	  display: block;
+    float: right;
+    margin-right: 5px;
+    text-align: right;}
+
+#visual-portal-wrapper{margin-left:auto; margin-right:auto; width:1007px; background:#205aa7 url('http://images.315ok.org/xsgs998/bodybg.jpg') top center repeat-x}
+
+.managePortletsFallback{display:none}
+
+#portal-logo img{border:0}
+
+#portal-top{margin-top:4px; width:966px; margin-left:auto; margin-right:auto}
+
+#portal-siteactions{background-color:transparent; white-space:nowrap; list-style-image:none; height:auto; line-height:normal; float:right; margin:1px 20px 0 0}
+
+#portal-siteactions li a{background-color:transparent; border:none; border-right:#f3c246 2px solid; color:#76797c; font-size:14px; height:auto; padding-right:5px; text-decoration:none; text-transform:none}
+
+#portal-globalnav{background:transparent url('http://images.315ok.org/xsgs998/top.jpg') 0 0 no-repeat; white-space:nowrap; list-style:none; height:auto; line-height:160%; margin-left:0; margin-top:0; text-align:center; padding:5px;border-bottom:#042656 1px solid;}
+
+#portal-globalnav li a{background-color:transparent; border:none; border-right:#002867 2px solid; color:#fff; font-size:16px; font-weight:700; margin-right:0; text-decoration:none; text-transform:none; padding:2px 2px 2px 12px}
+
+#portal-globalnav li.selected a{color:#fff; padding-bottom:3px}
+
+#portal-globalnav li a:hover{background-color:#EC870E; color:#fff; padding-bottom:3px}
+
+#portal-personaltools-wrapper{background-color:transparent; float:right; clear:right; margin-top:-2px; margin-right:20px; color:#fff; width:187px; position:relative}
+
+#portal-personaltools{line-height:1.6em; padding-right:20px; text-align:right; text-transform:none; margin:-3px 0 0; *margin-top:1px}
+
+#portal-personaltools .portalUser{background:transparent url('http://images.315ok.org/user.gif') center left no-repeat; padding-left:18px}
+
+#portal-personaltools .portalNotLoggedIn{background:transparent; background-image:none; padding:0}
+
+#portal-personaltools li{color:#FFF; margin-left:1em; display:inline}
+
+#portal-personaltools li a{text-decoration:none; font-size:15px; color:#FFF}
+
+#portal-personaltools .visualIconPadding{padding-left:10px}
+
+.visualCaseSensitive{text-transform:none}
+
+#portal-breadcrumbs{
+	  background-color: #1B4F93;
+    line-height: 2.6em;
+    margin-top: -9px;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-transform: none;	}
+
+#portal-breadcrumbs a{text-decoration:none; color:#fff}
+.breadcrumbSeparator{font-size:120%}
+
+#content h5, #content h6{color:#76797c}
+
+.newsItem{margin-bottom:1em; border-bottom:1px solid #8cacbb}
+
+.newsImage{border:1px solid #ccc}
+
+.newsImageContainer{float:right; width:202px; text-align:center; margin:0 1em 0.5em}
+
+.newsContent{padding:0 1em 1em}
+
+.newsContent ul, .newsContent li{display:block; list-style:none; list-style-image:none; margin:0; padding:0}
+
+.newsAbout{display:block; color:#76797c; font-size:90%; margin-top:0; list-style:none; list-style-image:none; float:right; text-align:right; padding:0}
+
+.newsFooter li{display:inline; margin:0 1em 0 0}
+
+dl.portalMessage a{color:#000; border:none; text-decoration:underline}
+
+dl.portalMessage dt{background-color:#996; border:1px solid #996; font-weight:700; float:left; color:#FFF; line-height:1.25em; margin:0 0.5em 0 0; padding:0.5em 0.75em}
+
+dl.portalMessage dd{background-color:#ffffe3; border:1px solid #996; line-height:1.25em; margin:0; padding:0.5em}
+
+dl.warning dt{background-color:#d80; border:1px solid #d80}
+
+dl.error dt{background-color:#d00; border-color:#d00}
+
+.documentDescription{font-weight:700; display:block; line-height:1.5em; margin:0 0 0.5em}
+
+#category ul{list-style-image:none; list-style-type:none; display:inline; margin:0}
+
+.discussion{margin-top:1em}
+.odd{background-color:transparent}
+.visualHighlight{background-color:#ffc}
+.discreet{color:#76797c; font-size:90%; font-weight:400}
+
+.notify, .documentEditable * .notify{border:1px solid orange}
+
+.card{background-color:#dee7ec; float:left; text-align:center; width:110px; border-color:#8cacbb; border-style:solid; border-width:1px; margin:1em; padding:1em 0}
+
+.portrait{background-color:#dee7ec; font-size:90%; text-align:center; width:100px; border-color:#8cacbb; border-style:solid; border-width:1px; margin:0.5em; padding:1em 0 0.5em}
+
+.portraitPhoto{border:1px solid #000}
+
+table.listing, .stx table{border-collapse:collapse; border-left:1px solid #8cacbb; border-bottom:1px solid #8cacbb; font-size:90%; margin:1em 0}
+
+table.listing th, .stx table th{background:#dee7ec; border-top:1px solid #8cacbb; border-bottom:1px solid #8cacbb; border-right:1px solid #8cacbb; font-weight:400; text-transform:none; padding:0.25em 0.5em}
+
+table.listing .top{border-left:1px solid #FFF; border-top:1px solid #FFF !important; border-right:1px solid #FFF !important; text-align:right !important; padding:0 0 1em}
+
+table.listing td, .stx table td{border-right:1px solid #8cacbb; padding:0.25em 0.5em}
+
+table.listing td a label, .stx table td a label{cursor:pointer}
+
+table.vertical{background-color:#FFF}
+
+table.vertical th{padding:0.5em}
+
+table.vertical td{border-top:1px solid #8cacbb; padding:0.5em}
+
+table.grid td{border:1px solid #8cacbb; padding:0.5em}
+
+table.plain, table.plain td, table.plain th{border:1px solid #ccc; border-collapse:collapse; padding:0.5em}
+
+.listingBar{background-color:#dee7ec; text-align:center; text-transform:none; vertical-align:top; font-size:94%; clear:both; border-color:#8cacbb; border-style:solid; border-width:1px; margin:1em 0; padding:0 1em}
+
+.listingBar span.previous, .listingPrevious{text-align:left; float:left; margin-right:1em}
+
+.listingBar span.next, .listingNext{text-align:right; float:right; margin-left:1em}
+
+.tileItem{border-top:1px solid #8cacbb; padding-top:0; margin-top:0}
+
+.tileHeadline{border:none; font-size:110%; font-weight:700}
+
+.tileImage{float:right; border:1px solid #000; margin:0 0 0.5em 0.5em}
+
+.eventDetails{float:right; width:20em; clear:right}
+
+ul.visualNoMarker, ol.visualNoMarker{list-style-type:none; list-style-image:none; line-height:1em; margin:0.5em 0 0}
+
+ul.discreet{list-style-image:none; list-style-type:disc}
+
+textarea.proportional{font:100%}
+#visual-portal-wrapper #id #portal-footer{_margin-top:-1px}
+
+#portal-footer{width:1007px; background-color:#205aa7; margin-top:-1px; *margin-bottom:-10px; _margin-bottom:0px; *margin-top:0px; float:none; line-height:1.2em; text-align:center}
+
+#portal-footer p{color:#fff; padding:8px}
+
+#portal-footer a{text-decoration:none; color:#fff; border:none}
+
+#portal-sitemap{list-style:none; list-style-image:none; font-size:90%; border:none; margin:0}
+
+#portal-sitemap a{border:1px solid #FFF}
+
+#portal-sitemap a:hover{border:1px solid #8cacbb}
+
+#portal-sitemap .navTreeLevel1{padding-left:1em; border-left:0.5em solid #8cacbb; margin:0 0 0 0.5em}
+
+#portal-sitemap .navTreeLevel2{padding-left:1em; border-left:0.5em solid #dee7ec; margin:0 0 0 0.6em}
+
+body.fullscreen #portal-globalnav{margin-top:4em}
+
+body.fullscreen #portal-searchbox{position:relative; z-index:3; margin:0.5em 2em 0 0.5em; padding:0}
+
+.image-left{float:left; clear:both; border:1px solid #000; margin:0.5em 1em 0.5em 0}
+
+.image-inline{float:none}
+
+.image-right{float:right; clear:both; border:none; margin:0.5em}
+
+dd.image-caption{text-align:left; margin:0; padding:0}
+
+dl.captioned{padding:10px}
+
+.portletAssignments{margin-top:1.5em}
+
+.section div{padding-top:0.5em; padding-bottom:0.5em}
+
+.stx table p, dl.collapsible dd.collapsibleContent >dl{margin:0; padding:0}
+
+*:link, :visited, ul.configletDetails li a, .documentContent dd a, .card a, table.listing a, .listingBar a, .tileHeadline a{text-decoration:none}
+
+table, body.largeText{font-size:100%}
+
+a, ul.configlets li a:visited, ul.configlets li a:active{color:#436976; background-color:transparent}
+
+ul, ol{line-height:1.5em; padding:0}
+
+li, .tileBody{margin-bottom:0.5em}
+
+dt, ul.configlets li label, ul.configletDetails li label{font-weight:700}
+
+abbr .explain, div.managedPortlet.portlet{border-bottom:none}
+
+table.listing .listingCheckbox{text-align:center}
+
+#collage .portletHeader a{background:transparent url('http://images.315ok.org/xsgs998/portHeadImg.gif') no-repeat 0 9px;color:#000; text-align:left !important;display:block}
+#leftcol{width:34%; float:left; clear:left; margin-top:7px}
+#rightcol{width:40%; float:right; clear:right; margin-top:7px}
+#midcol{width:25%; float:left; clear:none; margin:7px 3px 0 3px}
+.portletPixviewer #switchpics_id{margin-left:10px}
+
+.state-private, .state-expired{color:Red !important}
+
+body.fullscreen #portal-column-one, body.fullscreen #portal-column-two, dl.collapsedInlineCollapsible dd.collapsibleContent, dl.collapsedBlockCollapsible dd.collapsibleContent, .formPanel.hidden, div.formControls input.hidden, p#link-presentation, body.fullscreen #portal-logo, body.fullscreen #portal-siteactions{display:none}
+
+.configlet .contentViews, dl.portalMessage{font-size:90%}
+
+.actionMenu .actionMenuHeader a, dl.searchResults span.documentByLine{display:block}
+
+ul.configlets li, #content-news h1{margin-bottom:1em}
+
+li.formTab a.selected, li.formTab a:hover{background:#dee7ec}
+
+.documentContent p a, .documentContent li a{text-decoration:none; border-bottom:1px #ccc solid}
+
+.documentContent p a:visited, .documentContent dd a:visited{color:Purple; background-color:transparent}
+
+.documentContent p a:active, .documentContent dd a:active{color:Red; background-color:transparent}
+
+#portal-siteactions li, #portal-globalnav li, #portal-languageselector li, .newsAbout li, #category ul li{display:inline}
+
+#portal-siteactions li.selected a, #portal-siteactions li a:hover{background-color:#dee7ec; color:#436976}
+
+#portal-siteactions li a.last-item, #portal-globalnav li a.last-item{border-right:0 none !important}
+
+dl.warning dd, dl.error dd{background-color:#fd7; border-color:#d80}
+
+table.listing a:hover, #portal-footer a:hover{text-decoration:underline}
+
+table.listing img, .listingBar img{vertical-align:middle}
+
+table.solidborder{border-collapse:collapse; border:1px solid #000; background:#FFF; width:100%}
+table.solidborder th, table.solidborder tr{border:1px solid #000}
+
+table.solidborder td{text-align:left; padding:5px 2px; line-height:18px; border-right:1px solid #000; border-bottom:1px solid #000; border-top:1px solid #000; border-left:1px solid #000}
+div.visualClear {clear:both}
+div.pfg-form{padding-left:12px}
+#collage .three-columns-equal .block_1, #collage .three-columns-equal .block_2, #collage .three-columns-equal .block_3 {_width:31.5%}

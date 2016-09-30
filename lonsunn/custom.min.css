@@ -1,0 +1,19 @@
+.right {float:right}#portal-languageselector{float:right;padding-right: 15px;}
+.plone-navbar .livesearch-results {color:#333333}
+#portal-languageselector li {display:inline}
+#content-header {margin-bottom:8px;}
+#headerlogo{margin-bottom:12px}
+.navbar-toggle,.navbar-toggle .icon-bar {border: 1px solid #FFF;}
+body .label{color:#333333}
+.portlet-static-partner li.head {
+    font-size: 16pt;
+}
+.portlet-static-partner li {
+    display: inline;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 0 8px;
+    text-align: center;
+}
+.template-index-html #portal-breadcrumbs {display:none}
+.managePortletsAboveLink,.managePortletsBelowTitleLink{display:none}

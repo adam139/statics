@@ -1,0 +1,382 @@
+* ul, ol{list-style:none}
+
+* a img, :link img, :visited img{border-right:none}
+
+body{font:85% Arial; background-color:#FFF; color:#000; margin:0; padding:0}
+div.visualClear{clear:both}
+a{color:#000;background-color:transparent;text-decoration:none;}
+
+img{border:none; vertical-align:middle}
+
+p{line-height:1.5em; margin:0 0 5px 0; font-size:14px}
+
+p img{border:none; margin:0}
+
+h1, h2, h3, h4, h5, h6{color:#000; font-family:Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; margin:0.75em 0 0.25em}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color:#000 !important; text-decoration:none}
+
+h1{font-size:160%}
+
+h2{font-size:14px}
+#visual-portal-wrapper{margin-left:auto; margin-right:auto; width:1024px; margin-top:-4px; padding:0}
+#portal-top{background:transparent url('http://images.315ok.org/315ok/top.png') no-repeat 0 0; width:100%}
+#portal-siteactions{background-color:transparent; white-space:nowrap; list-style-image:none; height:auto; line-height:normal; float:right; margin:1px 0 0; padding:10px 20px 3px 0}
+
+#portal-siteactions li a{background-color:transparent; border:none; color:#959595; font-size:12px; height:auto; text-decoration:none; text-transform:none}
+#portal-logo img{margin-left:392px; margin-top:10px; padding:0; border:none}
+
+#topflash{background:transparent url('http://images.315ok.org/315ok/flashbg.png') no-repeat scroll 0 0; height:367px; top:38px; left:0; position:relative; width:100%}
+.section-front-page .documentActions ul, .section-front-page dd.portletFooter, .portlet-static-83dc5355 .portletHeader, .section-wangzhanxinshang .discreet, .section-wangzhanxinshang .documentFirstHeading{display:none}
+.portletStaticText dt.portletHeader span{display:block !important}
+.portlet-static-83dc5355{top:10px; left:0; position:relative}
+
+.portlet-static-83dc5355 dd{background-image:none; margin:0; padding:0}
+
+dl.searchResults dt{font-size:140%; font-weight:400}
+
+input.searchPage{font-size:200% !important}
+
+form.searchPage input.searchButton{background-position:5px 7px; padding:1px 10px 1px 25px}
+
+.LSRes{font-family:Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; visibility:visible; color:#436976; background-color:#FFF; vertical-align:middle; display:block; list-style-image:none; list-style-type:none; text-align:left; min-width:16.5em; text-transform:none; margin-left:0; line-height:1.1em}
+
+#LSHighlight, .LSHighlight{background-color:#dee7ec; border:1px solid #8cacbb; color:#436976}
+
+.LSRow{border:1px solid #FFF; white-space:normal; list-style-image:none; list-style-type:none; margin:0; padding:0}
+
+.LSRow a{text-decoration:none; font-weight:700; white-space:nowrap}
+
+.LSDescr{color:#76797c; text-transform:none; padding-left:2.1em; margin-top:-0.1em}
+
+.LSResult{position:relative; display:block; text-align:right; padding-top:5px; left:3px; z-index:3; margin:0}
+
+.LSShadow{position:relative; text-align:right}
+
+.LSIEFix{background-color:#FFF; z-index:20; padding:0.5em !important}
+
+.LSBox label{font-weight:400}
+#portal-personaltools-wrapper{float:right; clear:right; zoom:1}
+#portal-personaltools{padding-right:20px; float:right; clear:right; text-align:right; text-transform:none; display:block; margin-top:-24px; position:relative; zoom:1}
+
+#portal-personaltools .portalUser{background:transparent url('http://images.315ok.org/user.gif') center left no-repeat; padding-left:18px}
+
+#portal-personaltools .portalNotLoggedIn{color:#000; background:transparent; background-image:none; padding:0}
+
+#portal-personaltools li{margin-left:1em; display:inline}
+
+#portal-personaltools li a{text-decoration:none; font-size:12px; color:#959595}
+
+#portal-personaltools .visualIconPadding{padding-left:10px}
+#portal-breadcrumbs{background-color:#F5F6F6; color:#959595; font-size:13px; margin-top:-17px; *margin-top:-29px; padding-left:2em; padding-right:2em; padding-top:0px; height:18px; text-transform:none}
+#portal-breadcrumbs a{color:#959595}
+.breadcrumbSeparator{font-size:120%}
+#portal-columns{width:100% !important; border-collapse:collapse; border-spacing:0; margin-top:-15px; background:#F5F6F6 url('http://images.315ok.org/315ok/bg.png') no-repeat center bottom}
+
+#portal-column-one{vertical-align:top; width:202px !important}
+
+#portal-column-content{vertical-align:top; padding:20px 7px 65px 7px; margin:0em 0em 2em 0em}
+.section-front-page #portal-column-content{padding-top:0; vertical-align:top}
+.section-wangzhanxinshang #portal-column-content{padding:0}
+
+#portal-column-two{vertical-align:top; width:202px; margin-left:auto; margin-right:0; padding:0}
+
+body.fullscreen #portal-column-content{width:100%; margin:0; padding:0}
+#portal-footer{background:transparent url('http://images.315ok.org/315ok/footer.png') repeat 0 0; float:none; height:140px; line-height:1.2em; margin-left:auto; margin-right:auto; padding:8px; text-align:center; width:1008px; color:#fff}
+
+#portal-footer p{margin-top:3px; margin-bottom:0; font-size:13px}
+
+#portal-footer a{text-decoration:none; color:#fff; border:none}
+
+#portal-footer a:visited{color:#436976}
+
+.context, .destructive, .standalone{background:#fff url('http://images.315ok.org/315ok/ydbg.png') no-repeat 0 0; border:none; height:37px; margin-top:10px; width:105px; padding-bottom:7px}
+
+.external-link{color:red}
+.marquee{display:inline; float:left; background:transparent; border:none; height:165px; overflow:hidden; width:590px; _margin-top:-14px; margin-left:-18px; margin-top:-13px}
+ul.img{margin-top:0px !important}
+
+.section-wangzhanxinshang .roll_portlet{float:left; width:1024px}
+#roll_chanpin{margin:0}
+
+.section-wangzhanxinshang .portletslidebar_portlet .portletHeader a span{display:block; padding-left:0; padding-top:0}
+.roll_image li{float:left; list-style:none outside none; text-align:center; width:220px; margin-left:0}
+.roll_image li a{border:none !important}
+.roll_image{border:1px solid #2CA4D4; display:inline; float:left; height:200px; margin-bottom:70px; margin-top:0; overflow:hidden; width:1023px}
+.roll_image .img{width:1024px}
+.roll_image li a img{width:84%; _width:80%; _margin-top:15px}
+
+.marquee li{border-right:1px solid #2AB3E7; float:left; height:165px; list-style-image:none; list-style-position:outside; list-style-type:none; padding-left:2px; padding-right:2px; text-align:center; width:201px}
+
+img.currentItem{border:none}
+#rootlink{height:165px !important; margin-left:-18px; margin-top:-13px; width:582px !important}
+#soft_left{padding-top:0; border:none; *border:1px solid #2AB3E7; _border:none; position:relative; width:200px; margin-left:auto; *margin-left:-8px; _margin-top:14px; margin-right:auto; list-style-type:none}
+#soft_left .panel{background:#2C2C2C none repeat scroll 0 0; border-top:1px solid #D4D4D4; bottom:0; -bottom:5px; height:29px; opacity:0.3; filter:alpha(opacity=30); left:0; position:absolute; width:100%; z-index:200}
+#soft_left .img{margin-left:0; margin-top:-2px; position:relative}
+
+#soft_left .img li{left:0; top:0; position:absolute; z-index:100; list-style:none}
+
+#soft_left .num{bottom:5px; position:absolute; right:5px; z-index:301}
+
+#soft_left .title{bottom:5px; left:20px; color:#FFF; _color:#000; font-size:14px; font-weight:normal; position:absolute; text-decoration:none; z-index:400; _width:200px}
+
+* html #portal-header{width:1024px; min-height:0.01%}
+
+.slideBanner .img{margin-left:0 !important; margin-top:0 !important; position:relative}
+
+textarea{width:100%}
+#portal_block_21_content {overflow:auto;
+height:162px;}
+dd input.searchButton{background:transparent url('http://images.315ok.org/315ok/searchbg.png') no-repeat center center; border:medium none; height:32px; margin-top:-1px; overflow:visible; padding-right:4px; text-align:right; width:40px}
+
+dd.portletItem_link{text-align:center; margin:0; padding:0}
+
+dt.portletHeader{display:block; font-size:18px !important; text-align:center; height:35px; font-family:Arial, "\5b8b\4f53", sans-serif; text-shadow:0 1px #fff; font-weight:100}
+
+.portletHeader{width:100%}
+.portletHeader a{_margin-top:9px; _display:block}
+
+.portletHeader span{_margin-top:9px; _display:block}
+
+#searchGadget{background:#fff; border:1px solid #7b7a7a; margin-top:-1px; color:#7b7a7a; height:22px}
+
+.section-front-page #portal-column-one .visualPadding{padding-top:20px; _padding-top:60px}
+#portal-column-one .visualPadding{padding-top:0; _padding-top:10px; border:none; width:250px}
+
+#portal-column-two .visualPadding{padding-top:20px; _padding-top:60px; width:250px}
+
+.documentContent{font-size:14px; padding:0 10px}
+.section-front-page .documentContent{padding-top:20px; *padding-top:0}
+.documentContent ul{list-style-type:disc; margin-top:-1px}
+
+.documentContent ol{margin:0.5em 0 0 2.5em}
+
+#content a:target{background-color:#fd7 !important}
+
+.documentContent li a:visited{color:Purple}
+
+.documentContent li a:active{color:Red}
+
+.visualCaseSensitive{text-transform:none}
+
+#portal-languageselector{float:right; margin-bottom:0; margin-right:21px; margin-top:-17px; _margin-top:-33px; position:relative}
+
+.addFavorite{vertical-align:bottom}
+
+.documentEditable{margin:0; padding:0 !important}
+
+#content h5, #content h6{color:#76797c}
+
+.newsItem{margin-bottom:1em; border-bottom:1px solid #8cacbb}
+
+.newsImage{border:1px solid #ccc}
+
+.newsImageContainer{float:right; width:202px; margin:0 0 0.5em 1em}
+
+.newsContent{padding:0 1em 1em}
+
+.newsContent ul, .newsContent li{display:block; list-style:none; list-style-image:none; margin:0; padding:0}
+
+.newsAbout{display:block; color:#76797c; font-size:90%; margin-top:0; list-style:none; list-style-image:none; float:right; text-align:right; padding:0}
+
+.newsFooter li{display:inline; margin:0 1em 0 0}
+
+.documentDescription{font-weight:700; display:block; line-height:1.5em; margin:0 0 0.5em}
+
+.documentByLine{font-size:90%; font-weight:400; color:#76797c; margin-bottom:0.5em}
+
+#category ul{list-style-image:none; list-style-type:none; display:inline; margin:0}
+
+.discussion{margin-top:1em}
+
+.visualHighlight{background-color:#ffc}
+
+.discreet{color:#76797c; font-size:90%; font-weight:400}
+
+.notify, .documentEditable * .notify{border:1px solid orange}
+
+table.listing, .stx table{border-collapse:collapse; border-left:1px solid #8cacbb; border-bottom:1px solid #8cacbb; font-size:90%; margin:1em 0}
+
+table.listing th, .stx table th{background:#dee7ec; border-top:1px solid #8cacbb; border-bottom:1px solid #8cacbb; border-right:1px solid #8cacbb; font-weight:400; text-transform:none; padding:0.25em 0.5em}
+
+table.listing .top{border-left:1px solid #FFF; border-top:1px solid #FFF !important; border-right:1px solid #FFF !important; text-align:right !important; padding:0 0 1em}
+
+table.listing td, .stx table td{border-right:1px solid #8cacbb; padding:0.25em 0.5em}
+
+table.listing td a label, .stx table td a label{cursor:pointer}
+
+table.vertical{background-color:#FFF}
+
+table.vertical th{padding:0.5em}
+
+table.vertical td{border-top:1px solid #8cacbb; padding:0.5em}
+
+table.grid td{border:1px solid #8cacbb; padding:0.5em}
+
+table.plain, table.plain td, table.plain th{border:1px solid #ccc; border-collapse:collapse; padding:0.5em}
+
+.listingBar{background-color:#dee7ec; text-align:center; text-transform:none; vertical-align:top; font-size:94%; clear:both; border-color:#8cacbb; border-style:solid; border-width:1px; margin:1em 0; padding:0 1em}
+.current{background-color:#525252; color:#FFF}
+.listingBar span.previous, .listingPrevious{text-align:left; float:left; margin-right:1em}
+
+.listingBar span.next, .listingNext{text-align:right; float:right; margin-left:1em}
+
+.tileItem{padding-top:0.5em; margin-top:0.5em; background-image:url('http://images.315ok.org/315ok/h-xian.png'); background-position:0 top; background-repeat:repeat-x}
+
+.tileHeadline{background:transparent url('http://images.315ok.org/315ok/xiaobiao.png') no-repeat scroll left center; border:none; font-size:110%; font-weight:700; padding-left:15px; text-decoration:underline}
+
+.tileImage{float:right; margin:0 0 0.5em 0.5em}
+
+.eventDetails{float:right; width:20em; clear:right}
+
+ul.visualNoMarker, ol.visualNoMarker{list-style-type:none; list-style-image:none; line-height:1em; margin:0.5em 0 0}
+
+ul.discreet{list-style-image:none; list-style-type:disc}
+
+textarea.proportional{font:100% "\5b8b\4f53", sans-serif; }
+
+#portal-sitemap{list-style:none; list-style-image:none; font-size:90%; border:none; margin:0}
+
+#portal-sitemap a{border:1px solid #FFF}
+
+#portal-sitemap a:hover{border:1px solid #8cacbb}
+
+#portal-sitemap .navTreeLevel1{padding-left:1em; border-left:0.5em solid #8cacbb; margin:0 0 0 0.5em}
+
+#portal-sitemap .navTreeLevel2{padding-left:1em; border-left:0.5em solid #dee7ec; margin:0 0 0 0.6em}
+
+body.fullscreen #portal-globalnav{margin-top:4em}
+
+body.fullscreen #portal-searchbox{position:relative; z-index:3; margin:0.5em 2em 0 0.5em; padding:0}
+
+.image-left{float:left; clear:both; border:1px solid #000; margin:0.5em 1em 0.5em 0}
+
+.image-inline{float:none}
+
+.image-right{float:right; clear:both; margin:0.5em}
+
+dd.image-caption{text-align:left; margin:0; padding:0}
+
+dl.captioned{padding:10px}
+
+.section div{padding-top:0.5em; padding-bottom:0.5em}
+
+#soft_left .num li .numVal{background:transparent url(imgPlayer.gif) repeat-x scroll center top; color:#FFF; cursor:pointer; display:block; font-family:Tahoma; font-size:10px;font-style:normal; font-variant:normal; font-weight:700; height:15px; line-height:normal; text-align:center; width:15px; border-color:#D9D9D9 #C4C4C4 #C4C4C4 #D9D9D9; border-style:solid; border-width:1px}
+#soft_left .num li.over .numVal{background:transparent url(imgPlayer.gif) repeat-x scroll center bottom; width:22px; border-color:#FDE59D}
+#soft_left .num li{background-color:#095bad; border:1px solid #095bad; display:inline; float:left; margin:0 1px}
+#soft_left .num li{_background-color:transparent; _border:none}
+#soft_left img{_margin-top:-15px}
+#soft_left .num li over{border-color:red}
+
+.managePortletsFallback, .hiddenStructure, .portlet-static-srx dt.portletHeader, .managePortletsLink, div.searchSection, body.fullscreen #portal-column-one, body.fullscreen #portal-column-two, dl.collapsedInlineCollapsible dd.collapsibleContent, dl.collapsedBlockCollapsible dd.collapsibleContent, .formPanel.hidden, div.formControls input.hidden, p#link-presentation, body.fullscreen #portal-logo, body.fullscreen #portal-siteactions{display:none}
+
+dt.portletHeader >span, dt.portletHeader >a{display:block; padding-top:2px}
+
+#portlet-global-recententry{background:transparent url('http://images.315ok.org/315ok/s-xian.png') no-repeat left top; height:280px; margin-bottom:38px; _margin-bottom:50px}
+#portlet-global-recententry .portletHeader{
+background-image: url('http://images.315ok.org/315ok/sprite-128-28.png');
+background-repeat:no-repeat;
+background-color:transparent;
+width: 128px;margin-left:auto;margin-right:auto;
+height: 28px;
+background-position: 0 -624px;}
+.portlet-dancing{background:transparent url('http://images.315ok.org/315ok/s-xian.png') no-repeat left top; padding-top:0}
+.portlet-dancing .portletHeader{
+background-image: url('http://images.315ok.org/315ok/sprite-128-28.png');
+background-repeat:no-repeat;
+background-color:transparent;
+width: 128px;margin-left:auto;margin-right:auto;
+height: 28px;
+background-position: 0 -468px;}
+#portal-columns .portlet dd{background-image:none; padding-top:10px}
+.portlet-dancing dd #default-channel-html-buttons-subscribe{background:transparent url('http://images.315ok.org/315ok/ydbg.png') no-repeat center center; border:none; height:37px; width:105px; margin-top:35px}
+.portlet-dancing dd .action{text-align:center}
+.portletCollection{margin-top:90px; _margin-top:110px; _padding-top:30px}
+.portletFetchOuterPortlet .portletHeader{
+background-image: url('http://images.315ok.org/315ok/sprite-128-28.png');
+background-repeat:no-repeat;
+background-color:transparent;
+width: 128px;margin-left:auto;margin-right:auto;
+height: 28px;
+background-position: 0 -546px;}
+#portal_block_21_content {width:80%;}
+.portletRss .portletHeader{
+background-image: url('http://images.315ok.org/315ok/sprite-128-28.png');
+background-repeat:no-repeat;
+background-color:transparent;
+width: 128px;margin-left:auto;margin-right:auto;
+height: 28px;
+background-position: 0 -390px;}
+.portletCollection .portletHeader{
+background-image: url('http://images.315ok.org/315ok/sprite-128-28.png');
+background-repeat:no-repeat;
+background-color:transparent;
+width: 128px;margin-left:auto;margin-right:auto;
+height: 28px;
+background-position: 0 -156px;}
+
+.section-front-page .portletslidebar_portlet{height:179px; padding-top:0; *padding-left:15px; background:transparent url('http://images.315ok.org/315ok/s-xian.png') no-repeat right top}
+.section-front-page .portlet-dancing{height:280px; padding-top:0; *padding-left:15px; margin-bottom:28px; _margin-bottom:45px; background:transparent url('http://images.315ok.org/315ok/s-xian.png') no-repeat left top}
+.section-front-page .portletslidebar_portlet .portletHeader, .portletLastEntryPortlet .portletHeader{
+background-image: url('http://images.315ok.org/315ok/sprite-128-28.png');
+background-repeat:no-repeat;
+background-color:transparent;
+width: 128px;margin-left:auto;margin-right:auto;
+height: 28px;
+background-position: 0 -234px;}
+.portletEvents{margin-top:90px; _margin-top:110px; _padding-top:30px}
+.portletEvents .portletHeader{
+background-image: url('http://images.315ok.org/315ok/sprite-128-28.png');
+background-repeat:no-repeat;
+background-color:transparent;
+width: 128px;margin-left:auto;margin-right:auto;
+height: 28px;
+background-position: 0 -78px;}
+.portletNews{background:transparent url('http://images.315ok.org/315ok/s-xian.png') no-repeat right top; height:280px; margin-bottom:28px; _margin-bottom:45px}
+.fieldRequired{color:#f00}
+.portletLastEntryPortlet{background:transparent url('http://images.315ok.org/315ok/s-xian.png') no-repeat left top; height:179px; padding-top:0}
+.portletNews .portletHeader, .portlet-dancing .portletHeader{
+background-image: url('http://images.315ok.org/315ok/sprite-128-28.png');
+background-repeat:no-repeat;
+background-color:transparent;
+width: 128px;margin-left:auto;margin-right:auto;
+height: 28px;
+background-position: 0 -390px;}
+.portletNavigationTree .portletHeader{
+background-image: url('http://images.315ok.org/315ok/sprite-128-28.png');
+background-repeat:no-repeat;
+background-color:transparent;
+width: 128px;margin-left:auto;margin-right:auto;
+height: 28px;
+background-position: 0 0; 
+ }
+.portletNavigationTree dd{background-image:none}
+.state-private, .state-expired{color:Red !important}
+
+table, body.largeText{font-size:100%}
+
+ul, ol{line-height:1.5em; padding:0}
+
+li, .tileBody{margin-bottom:0.5em}
+.documentContent {padding:0 !important;}
+.documentContent p a, .documentContent li a{text-decoration:none; color:#9F9F9F}
+
+.documentContent p a:visited, .documentContent dd a:visited{color:#000; background-color:transparent}
+
+.documentContent p a:active, .documentContent dd a:active{color:Red; background-color:transparent}
+
+#portal-siteactions li, #portal-globalnav li, #portal-languageselector li, .newsAbout li, #category ul li{display:inline}
+
+#portal-siteactions li.selected a, #portal-siteactions li a:hover{color:#436976}
+
+form.searchPage, table.listing .listingCheckbox{text-align:center}
+
+#portal-globalnav li.selected a, #portal-globalnav li a:hover{background-color:transparent; border:none; color:red}
+
+dl.portletSearch{width:100%; text-align:center; margin-top:-32px; *margin-top:-39px; position:relative}
+.portletSearch dt, .portletSearch .portletFooter, #collage .documentFirstHeading{display:none}
+
+.portletSearch dd{background:none; margin:0}
+span.cloud5 {font-size:1em;}
+#collage .two-columns-equal .column-block{width:48%;float:right;}
+

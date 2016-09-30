@@ -1,0 +1,465 @@
+/*self-define css rules to reflect special need*/
+.oldie img.left {
+	float:left;}
+.ie7 #action-bar,
+.ie7 #portlets-below,
+.ie7 #portletBelowContentD {
+	height: 0;}
+.ie6 #action-bar,.ie6 #portlets-below,.ie7 #portletBelowContentD {height:0;overflow:hidden;}
+.ie7 #collage .row_4 .block_2,.ie7 #collage .row_4 .block_3 {padding-left:10px;}
+h1{font-size:24px;}h2{font-size:22px;}h3{font-size:19px}h1,h2,h3{line-height:1.1;text-align:center;}
+
+/* clear both */
+div.clear {clear:both;}
+/* front page cancel breadcrumb */
+.section-front-page .breadcrumb {display:none}
+.section-front-page #content {margin-top:-12px;}
+/* adjust main menu background color */
+.navbar-inner {
+  min-height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #637bc3;
+  background-image: -moz-linear-gradient(top, #016ffc, #016ffc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#016ffc), to(#016ffc));
+  background-image: -webkit-linear-gradient(top, #016ffc, #016ffc);
+  background-image: -o-linear-gradient(top, #016ffc, #016ffc);
+  background-image: linear-gradient(to bottom, #016ffc, #016ffc);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#016ffc', endColorstr='#016ffc', GradientType=0);
+  border: 1px solid #415ba8;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  *zoom: 1;
+}
+/* adjust the main menu item padding */
+.navbar .nav > li > a {padding:15px 17px;}
+/*----- DropDown menu css-----*/
+.hasDropDown:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #fff;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.hasDropDown {
+  position: relative;
+}
+li:hover > a:after {
+  border-left-color: #ffc40d;
+}
+ul.submenu {
+    background-clip: padding-box;
+    background-color: #637BC3;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    float: left;
+    left: 0;
+    list-style: none outside none;
+    margin: 2px 0 0;
+    min-width: 160px;
+    padding: 5px 0;
+    position: absolute;
+    top: 100%;
+    z-index: 1001;	
+  }
+li > ul.submenu {
+   -webkit-border-radius: 0 6px 6px 6px;
+   -moz-border-radius: 0 6px 6px 6px; 
+    border-radius: 0 6px 6px 6px;    
+    left: 100%;
+    margin-left: -1px;
+    margin-top: -6px;
+    top: 0;
+   }  
+#nav li:hover > ul.submenu {
+  display:block;
+  }
+ul.submenu li {
+  float:none;
+  margin:0;
+  }
+#nav ul.submenu li a {
+    clear: both;
+    color: #FFFFFF;
+    display: block;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 3px 20px;
+    white-space: nowrap;
+  }
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {width:1020px;}
+.span12 {width:100%;}
+.navbar {margin-bottom: 10px;}
+.breadcrumb {margin-bottom: 0;font-size:12px;padding:1px 15px;}
+.nav {margin-bottom: 12px;}
+.navbar-search .search-query {
+    background: url("http://images.315ok.org/xtshzz/images/searchbox.jpg") no-repeat scroll 0 0 transparent;
+    border-radius: 0 0 0 0;
+    border-width: 0;
+    height: 28px;
+    padding: 0 0 0 4px;
+    width: 141px;
+}
+.navbar-search .searchButton {
+    background: url("http://images.315ok.org/xtshzz/images/search_icon.jpg") no-repeat scroll 0 0 transparent;
+    color: #5871BF;
+    height: 30px;
+    margin-left: 3px;
+    width: 40px;
+}
+#headerlogo {background-color:#CEE1F0;margin-left:0}
+img.right {float:right}
+
+.managePortletsLink,.arrowDownAlternative,dl.warning,#collage .documentFirstHeading,.documentDescription,#content a.managePortletsFallback,a.managePortletsFallback {display: none}
+/* portlet css*/
+.portletItemDetails {float: right;margin-right: 1em;color:#000;}
+.ie7 .portletItemDetails {margin-top:-21px;}
+.portletTopRight{float:right;color:#fff;margin-right: 6px;font-weight: normal;
+    margin-top: -30px;}
+.row_3 .kuputab-container {height:188px;}
+dl.portletgroupcollection {border: none}
+
+#collage .portletItem .tile{
+    background: url("http://images.315ok.org/xtshzz/images/red_point.jpg") no-repeat scroll 0 10px transparent;
+    padding-left: 12px;
+    margin-left: -10px;
+}
+#collage .row_1 .block_3 .portletItem .tile{margin-left:0}
+.portlet .portletItem,.rollitem {font-size:13px;}
+
+.portletItem .navTree a {border-bottom: none}
+.row_1 dt a,.row_5 dt .actived {display:block;
+    background: url("http://images.315ok.org/xtshzz/images/portlethoverbg.jpg") no-repeat scroll 0 5px transparent;
+    display: block;
+    height: 26px;
+    margin-left: 13px;
+    padding-top: 5px;
+    text-align: center;
+    width: 90px;
+}
+.QuickUploadPortlet h4 .tile,.portletNavigationTree h4 .tile,.portletSearch dt .actived,.portletEmbedIframePortlet dt .actived,.rolltext_portlet dt .actived,.portletStaticText dt .actived {
+	  background: url("http://images.315ok.org/xtshzz/images/portlethoverbg.jpg") no-repeat scroll 0 5px transparent;
+    display: block;
+    height: 26px;
+    margin-left: 6px;
+    padding-top: 8px;
+    text-align: center;
+    width: 90px;
+    font-size: 14px;	
+}
+.portletNavigationTree h4 a.tile {margin: 0 auto;}
+.row_3 .portlet dt .actived,#collage #kuputab-selector-6  a.selected{
+    background: url("http://images.315ok.org/xtshzz/images/nianjianjieguogonggaojihuobg.jpg") no-repeat scroll 0 5px transparent;
+    width:auto;
+}
+.row_3 .portlet dt .actived {text-align: left;padding-left:10px}
+.portletgroupcollection dt {display:none;}
+
+#collage .row_1 .three-columns-equal .block_1 {width:38%}
+#collage .row_1 .three-columns-equal .block_2 {width:37%}
+#collage .row_1 .three-columns-equal .block_3 {width:23%}
+.row_1 .kuputab-container {height:240px;overflow: hidden;}
+.shortcutlink {font-size:12px;font-weight:bold}
+.shortcutlink a{
+line-height: 28px;	
+background: url("http://images.315ok.org/xtshzz/images/shehuituantidarkbg.jpg") no-repeat scroll 0 0 transparent;
+height:28px;
+width:100px;
+text-align: center;
+display: inline-block;	
+margin: 1px 8px;
+color: #000;
+}
+.shortcutlink .heightlight{color: #fff;background: url("http://images.315ok.org/xtshzz/images/shehuituantibg.jpg") no-repeat scroll 0 0 transparent;
+
+}
+/* slider portlet css*/
+dl.portletslidebar_portlet { border: 1px solid #B4B4B4;
+    margin: 0 auto;
+    padding: 6px 6px 6px 7px;}
+.portletslidebar_portlet dd {margin-left:0}    
+#slidercontainer {}
+#sliderimages {
+border:none;
+position:relative;
+width:100%;
+height:227px !important;
+margin-right:auto;
+list-style-type:none;
+margin-top:0;
+}
+
+#sliderimages .panel {
+background:#2C2C2C none repeat scroll 0 0;
+border-top:none;
+bottom:0;
+height:27px;
+opacity:0.3;
+filter:alpha(opacity=30);
+position:absolute;
+width:99%;
+z-index:200;
+*margin-bottom:-6px;
+}
+#sliderimages .img {
+margin-left:0;
+margin-top:0;
+height:227px;
+position:relative;
+}
+
+#sliderimages .img li {
+left:0;
+top: 0;
+*top:-1px;
+position:absolute;
+z-index:100;
+list-style:none;
+}
+#sliderimages a img {
+height:227px;
+}
+
+#sliderimages .num {
+bottom:-7px;
+*bottom:2px;
+position:absolute;
+right:6px;
+z-index:301;
+}
+
+#sliderimages .title {
+bottom:3px;
+color:#FFF;
+left:6px;
+position:absolute;
+text-decoration:none;
+z-index:400;
+font-size:14px;
+}
+#sliderimages .num li .numVal {
+background:transparent url("http://images.315ok.org/imgPlayer.gif") repeat-x scroll center top;
+color:#FFF;
+cursor:pointer;
+display:block;
+font-size:10px;
+font-style:normal;
+font-variant:normal;
+font-weight:700;
+height:15px;
+line-height:normal;
+text-align:center;
+width:15px;
+border-color:#D9D9D9 #C4C4C4 #C4C4C4 #D9D9D9;
+border-style:solid;
+border-width:1px;
+}
+
+#sliderimages .num li.over .numVal {
+background:transparent url("http://images.315ok.org/imgPlayer.gif") repeat-x scroll center bottom;
+width:22px;
+border-color:#FDE59D;
+}
+#sliderimages .num li {
+background-color:#095bad;
+border:1px solid #095bad;
+display:inline;
+float:left;
+margin:0 1px;
+}
+
+#sliderimages .num li over {
+border-color:red;
+}
+#collage .row_2  .block_1 {width:32.5%}
+#collage .row_2  .block_2 {width:66.5%}
+.ie7 #collage .row_2  .block_2 {width:66.4%}
+
+
+/* roll portlet css*/
+#content .rolltext {margin-top:1em;}
+.row_2 .portlet {height:86px;overflow:hidden;}
+.row_3 .portlet {height:188px;overflow:hidden;}
+#rolltextcontainer1,#rolltextcontainer2,#rolltextcontainer3 {height:172px;}
+.nianjianjieguogonggaorollzone,.xingzhengxukerollzone,.chachujieguogonggaorollzone {display:inline;float:left;overflow:hidden;height:162px;width:98%;}
+ul.rolltext {margin-left:0.5em;}
+ul.rolltext li{height:24px;}
+.navTree .navTreeItem,#content .rolltext li {
+	line-height:1.6em;
+	margin-left: -12px;
+	list-style:none outside url("http://images.315ok.org/xtshzz/images/red_point.jpg");border-bottom: 1px dashed #b4b4b4;}
+.navTree .navTreeItem {margin-left:-6px;}	
+
+dl.portletgroupcollection {
+    border: medium none;
+}
+.portlet, .kuputab-container {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #B4B4B4 #B4B4B4;
+    border-image: none;
+    border-right: 1px solid #B4B4B4;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    margin: 0;
+}
+dl {
+    margin-bottom: 20px;
+}
+#collage .collage-row {
+    text-align: left;
+}
+body {
+    color: #333333;
+    font-family: Tahoma,Helvetica,Arial,"宋体",sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+}
+html {
+    font-size: 100%;
+}
+#collage .row_2 .three-columns-equal  .block_1 {width:32.5%}
+#collage .row_2 .three-columns-equal  .block_2 {width:40.5%}
+#collage .row_2 .three-columns-equal  .block_3 {width:25%}
+#collage .row_3 .three-columns-equal  .block_1 {width:32.5%}
+#collage .row_3 .three-columns-equal  .block_2 {width:40.5%}
+#collage .row_3 .three-columns-equal  .block_3 {width:25%}
+#collage .row_5 .two-columns-largeleft .block_1 {width:74%}
+#collage .row_5 .two-columns-largeleft .block_2 {width:25%}
+.row_5 .block_1 .portlet {border:none}
+#roll_chanpin {
+margin:0;
+background:transparent url("http://images.315ok.org/xtgl/images/rollphoto_bg.jpg") repeat-x scroll 0 0;
+height:164px;
+width:753px;
+}
+
+.roll_image {
+display:inline;
+float:left;
+height:152px;
+overflow:hidden;
+width:690px;
+margin-left:56px;
+margin-top:6px;
+background-color: #fff;
+}
+.roll_image li {
+float:left;
+list-style:none outside none;
+text-align:center;
+width:184px;
+margin-left:8px;
+margin-top:9px;
+*height:100%;
+}
+.roll_image li a{display:block;margin-top:0;*margin-top:0;}
+.roll_image li a img {width:180px;height:100px;}
+.roll_image ul.img {*height:128px;}
+#roll_chanpin .imgtitle {width:184px;overflow:hidden;font-size:12px;line-height:2.1;margin-top:6px;}
+/* group portlet css*/
+.portletNavigationTree{margin-top:6px;}
+.QuickUploadPortlet h4,.portletNavigationTree h4,.portletHeader,#collage ul.kuputab-selectors {
+    background: url("http://images.315ok.org/xtshzz/images/portletheaderbg2.jpg") repeat-x scroll 0 0 transparent;
+    height: 29px;
+    margin: 0}
+    
+#collage ul.kuputab-selectors {text-align:center}    
+#collage .kuputab-selectors li {display:inline;margin: 0 12px} 
+#collage .block_3 .kuputab-selectors li {display:inline;margin: 0 16px}    
+#collage .kuputab-selectors li a {color:#fff;height:26px;line-height:1.1;font-size:14px;font-weight:700;background-color:transparent;border:none;}
+#collage .kuputab-selectors li a.selected {
+	color:#0088cc;
+	padding-top:10px;
+	height:26px;
+	background:transparent url("http://images.315ok.org/xtshzz/images/portlethoverbg.jpg") no-repeat 0 5px;border:none;}
+#collage .kuputab-selectors #kuputab-selector-1 a.selected {
+    background: url("http://images.315ok.org/xtshzz/images/nianjianjieguogonggaojihuobg.jpg") no-repeat scroll 0 5px transparent;
+    width:auto;	
+}
+#collage .kuputab-content {border:none;padding-right: 0;}
+#collage .block_3 .kuputab-content {border:none;padding-right: 0;padding-left: 0}
+#collage .kuputab-content dl.portletgroupcollection dd.portletItem {line-height:1.6;height:26px;border-bottom: 1px dashed #B4B4B4}
+input.portlet-search-gadget {  margin-right: 10px;
+    margin-top: 4px;
+    width: 144px;}
+.collage-item .portletEmbedIframePortlet dd {margin-left:0}
+/* service info*/
+.serviceinfo {margin-top:25px;}
+.serviceinfo li {list-style:none}
+/* friendly links */
+.friendlybg {background:transparent url("http://images.315ok.org/xtshzz/images/friendlinkbg.jpg") repeat-x 0 0;border:none;
+width:100%;
+height:108px;
+color:#fff;
+}
+.linkzone a {color:#fff;font-size:12px;}
+.verticaltext {
+    float: left;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 24px;
+    line-height: 1.1;
+    padding-left: 24px;
+    padding-top: 8px;
+    width: 1em;
+}
+.linkzone {    margin-left: 50px;
+    padding-top: 20px;
+    text-align: left;}  
+.linkzone ul {padding-top:6px;}      
+.linkzone ul li {list-style:none;display:inline;}
+.linkzone ul li a {    border-right: 1px solid #FFFFFF;
+    display: inline-block;
+    padding: 0 8px;}
+.linkzone ul .first a {font-size:14px;font-weight:700;border-right:none;padding-left:0;} 
+.linkzone ul .last a {border-right:none;}    
+.footerbg{
+background-color:#0D8FB3;	
+width:100%;
+height:100px;
+text-align:center;
+font-size:12px;
+}
+.footerbg .linkarea{
+	background:transparent url('http://images.315ok.org/xtgl/images/link_bg.jpg') no-repeat 0 0;
+	width:100%;
+	height:58px;
+}
+#lnk {margin:12px 0 0 0;padding:0}
+#lnk li {display:inline;float:left;padding: 8px 5px}
+#lnk li.first {padding-left:10px;}
+.footerbg .span7 {margin-left:60px;}
+.footerbg p {line-height:1.2;margin: 0}
+.textarea {padding:8px 0}
+.textarea a {color:#a5dcec;}
+.indented {margin-left:2em;}.noindent{margin-left:0}
+.nav-tabs {border-bottom: none}
+.navbar-inner {line-height:20px;font-size:14px;font-weight:bold}
+.submenu>li>a:hover,.submenu>li>a:focus{text-decoration:none;color:#ffc40d;background-color:#4c66b7;background-image:-moz-linear-gradient(top, #516bbc, #445eb0);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#516bbc), to(#445eb0));background-image:-webkit-linear-gradient(top, #516bbc, #445eb0);background-image:-o-linear-gradient(top, #516bbc, #445eb0);background-image:linear-gradient(to bottom, #516bbc, #445eb0);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff516bbc', endColorstr='#ff445eb0', GradientType=0);}
+
+.page-header {border-bottom:none;margin-bottom:0}
+#profile th,#profile td {text-align:center}#profile td.title {text-align:left}
+/* for quick upload */
+.QuickUploadPortlet {margin-top:6px;}
+.QuickUploadPortlet h4 {display:block;}
+.QuickUploadPortlet h4 span.tile {margin:0 auto;color: #0088cc;}
+.qq-upload-button {background-color:#5E76C1;right:6px;width:57px;}
+.quick-uploader div h4{display: none}
+#content-core {font-size:13px;}
+#content-core p {text-indent:2em;}

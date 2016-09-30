@@ -1,0 +1,6 @@
+.navbar-toggle,.navbar-toggle .icon-bar {border: 1px solid #FFF;}
+.template-index-html #portal-breadcrumbs {display:none}
+.plone-navbar .livesearch-results {color:#333333}
+body .label {color:#333333;}
+.nav-tabs > li > a {cursor:pointer;font-size:larger;text-decoration:none}
+.nav-tabs > li.active > a {border:none}
