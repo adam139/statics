@@ -1,0 +1,3 @@
+[submodule "shuiwustatic"]
+	path = shuiwustatic
+	url = git@github.com:adam139/shuiwustatic.git

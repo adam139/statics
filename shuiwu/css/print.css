@@ -1,6 +1,0 @@
-#content-header,#portal-footer-wrapper{display:none;}
-table.inner {margin-bottom:0}
-@media print {
-        .printthis {display:none;}
-    }
-@page {margin-top:0.5cm;margin-bottom:0.5cm}    
