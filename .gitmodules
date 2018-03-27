@@ -1,3 +1,6 @@
 [submodule "shuiwustatic"]
 	path = shuiwustatic
 	url = git@github.com:adam139/shuiwustatic.git
+[submodule "xtcs"]
+	path = xtcs
+	url = git@github.com:adam139/xtcs.git
