@@ -4,3 +4,6 @@
 [submodule "xtcs"]
 	path = xtcs
 	url = git@github.com:adam139/xtcs.git
+[submodule "qyxycjh"]
+	path = qyxycjh
+	url = git@github.com:adam139/qyxycjh.git
