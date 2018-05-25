@@ -7,3 +7,6 @@
 [submodule "qyxycjh"]
 	path = qyxycjh
 	url = git@github.com:adam139/qyxycjh.git
+[submodule "qidejt"]
+	path = qidejt
+	url = git@github.com:adam139/qidejt.git
