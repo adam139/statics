@@ -1,1 +1,4 @@
+.navbar-toggle, .navbar-toggle .icon-bar {
+    border: 1px solid #fff;
+}
 .navbar-default .navbar-toggle .icon-bar{background-color:#fff}
