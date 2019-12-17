@@ -1,3 +1,5 @@
+#subject li {display:inline}
+#subject .first {margin-right:1em}
 label .label {color:#666666}
 #portal-colophon li {list-style:none}
 .navbar-toggle, .navbar-toggle .icon-bar {
